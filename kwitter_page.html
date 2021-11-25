@@ -1,0 +1,20 @@
+<title>Rooms</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src = "kwitter_page.js"></script>
+<link rel = "stylesheet" href = "kwitter.css"> 
+<body>
+    <button id = "btn_logout" onclick= "logout();">Logout</button>
+    <br><br>
+    <h3 id = "message_holder"></h3>
+    <br><br>
+    <input class = "form-control" id = "put_in" placeholder = "Message Whatever You Want Here!">
+    <br><br>
+    <button class = "btn btn-success" onclick = "send();">Send Message</button>"  
+</body>
